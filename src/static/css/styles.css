@@ -23,7 +23,7 @@ body {
 }
 
 .toggles {
-    color: black;
+    color: pink;
 }
 
 .name {
@@ -36,4 +36,8 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+button:active {
+    background-color:black;
 }
