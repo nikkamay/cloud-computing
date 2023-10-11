@@ -24,6 +24,7 @@ body {
 
 .toggles {
     color:  #ff6b6b;
+    font-weight: bold;
 }
 
 .name {
@@ -39,12 +40,12 @@ body {
 button {
     border: 1px solid #ff6b6b; 
     background-color: #ff6b6b;
-    border-radius: 50px; 
+    border-radius: 10px; 
     color: #fff;
     padding: 10px 20px;
 }
 button:focus {
-    border:1px solid #ffb6c1;
+    border:2px solid #ffb6c1;
 }
 
 button:active {
