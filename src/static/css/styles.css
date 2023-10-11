@@ -20,11 +20,13 @@ body {
 
 .item.completed {
     text-decoration: line-through;
+    opacity: 0.6;
 }
 
 .toggles {
     color:  #ff6b6b;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .name {
@@ -43,6 +45,7 @@ button {
     border-radius: 10px; 
     color: #fff;
     padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
 }
 button:focus {
     border:2px solid #ffb6c1;
