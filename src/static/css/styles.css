@@ -1,21 +1,21 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #fce0f3;
     margin-top: 50px;
-    font-family: 'Lato';
+    font-family: 'Lato', cursive;
 }
 
 .item {
     background-color: #fffdd0;
     padding: 15px;
     margin-bottom: 15px;
-    border: transparent;
-    border-radius: 5px;
-    box-shadow: 0 0 1em #ccc;
+    border: solid #ffb6c1;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #ffb6c1;
     transition: all .2s ease-in-out;
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    box-shadow: 0 0 1em #f48ea9;
 }
 
 .item.completed {
@@ -23,21 +23,30 @@ body {
 }
 
 .toggles {
-    color: pink;
+    color:  #ff6b6b;
 }
 
 .name {
     padding-top: 3px;
+    color: #ff6b6b;
 }
 
 .remove {
     padding-left: 0;
 }
 
+
+button {
+    border: 1px solid #ff6b6b; 
+    background-color: #ff6b6b;
+    border-radius: 50px; 
+    color: #fff;
+    padding: 10px 20px;
+}
 button:focus {
-    border: 1px solid #333;
+    border:1px solid #ffb6c1;
 }
 
 button:active {
-    background-color:black;
+    background-color:#ffb6c1;
 }
